@@ -19,18 +19,28 @@ body {
     
 }
 
-.navbar {
+.hero {
     display:fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: var(--primary-color);
+    padding: 12px;
     
 }
-.navbar a {
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar a { 
     color: var(--success-color);
     text-decoration: none;
     margin: 0 1rem;
     justify-content: center;
     align-items: center;
+    transition: linear 0.5;
+}
+.navbar a:hover {
+    color: #1a702e ;
 }

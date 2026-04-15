@@ -40,7 +40,7 @@
     <section id="sobre" class="about">
         <h2>Sobre o Esporte</h2>
         <div>
-             <video src=""></video>
+             <video src=""></video> 
              <p></p>
         </div>
     </section>
